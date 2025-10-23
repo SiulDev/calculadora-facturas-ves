@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      href="/src/styles/style.css"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Sistema de Facturación</h1>
+    </header>
+    <main>
+      <section class="form-section">
+        <h2>Generar Nueva Factura</h2>
+        <form id="invoice-form">
+          <div class="form-group">
+            <label for="customer-name">Nombre del Cliente:</label>
+            <input
+              type="text"
+              id="customer-name"
+              name="customer-name"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="product-name">Elige un producto</label>
+            <input
+              type="date"
+              id="product-name"
+              name="invoice-date"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="item-description">Descripción del Ítem:</label>
+            <input
+              type="text"
+              id="item-description"
+              name="item-description"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="item-quantity">Cantidad:</label>
+            <input
+              type="number"
+              id="item-quantity"
+              name="item-quantity"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="item-price">Precio por Unidad:</label>
+            <input
+              type="number"
+              id="item-price"
+              name="item-price"
+              required />
+          </div>
+          <button type="submit">Generar Factura</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- <footer>
+      © 2024 Mi Empresa. Todos los derechos reservados. |
+      <a href="#">Términos y Condiciones</a>
+    </footer> -->
+  </body>
+</html>

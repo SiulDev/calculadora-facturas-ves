@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #1a1a2e;
+  --card-bg-color: #16213e;
+  --text-color: #e0e0e0;
+  --primary-color: #0f3460;
+  --secondary-color: #533483;
+  --accent-color: #e94560;
+  --border-color: #0f3460;
+  --input-bg-color: #0e162a;
+  --button-hover-color: #1b497f;
+  --button-add-color: #2c5f93;
+  --button-add-hover-color: #3b7ec6;
+  --footer-text-color: #888;
+}
